@@ -281,7 +281,7 @@ impl Args {
         {
             let joined = names.join(", ");
             bail!(self.span, "{joined} are mutually exclusive");
-        };
+        }
         Ok(())
     }
 }
